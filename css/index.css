@@ -379,17 +379,22 @@ li {
 
     .logo {
         justify-content: center;
-        width: 33%;
+		width: 33%;
+		margin: 4% 0;
     }
 
     .links {
-        justify-content: space-around;
+        justify-content: space-between;
         width: 100%;
     }
 
     .logo-header-img {
         display: none;
-    }
+	}
+	
+	header {
+		border-bottom: 1.5px solid black;
+	}
 
     .double-div {
         padding: 10% 0;
@@ -405,7 +410,26 @@ li {
 
     .text-header-contents a {
         width: 30%;
-    }
+	}
+
+	.top-content {
+		font-size: 75%;
+		width: 100%;
+	}
+	
+	.bottom-content {
+		font-size: 75%;
+		width: 100%;
+		border-bottom: 1.5px solid black;
+	}
+
+	.two-columns, .three-columns {
+		margin: 1% 1%;
+	}
+
+	.contact, .footer {
+		font-size: 75%;
+	}
 
 /* Small screens */
 @media screen and (max-width: 500px) {
