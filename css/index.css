@@ -204,11 +204,6 @@ header {
 	padding: 0 0 0 0;
 }
 
-/* .logo-header-img {
-	width: 100%;
-	height: 100%; 
-} */
-
 .services-header {
 	display: flex;
 	align-items: stretch;
@@ -414,6 +409,9 @@ li {
         padding: 2% 2%;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
+        background: whitesmoke;
+        font-weight: bold;
+        color: black;
 	}
 
 	.logo {
@@ -472,7 +470,8 @@ li {
 	/* index.html */
 
 	.double-div {
-		flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
 	}
 
 	.marketing-anchor {
